@@ -13,6 +13,7 @@ public abstract class BaseItem : ScriptableObject
     public Rarity rarity;
     public int requiredLevel; // Required level to use the item
     public EquipSlot equipSlot; // Where the item can be equipped
+    private string name = "Elijah";
 
 }
 
